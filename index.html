@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+    <title>Fashion Catalog</title>
+    <meta name="description" charset="UTF-8" content="A Catalog of Shows Set in Los Angeles" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
-  </head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/icons/hanger.webp">
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <h1 class="title">My Runway Log</h1>
+      <hr class="title-break">
     </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+    <div class="filters">
+      <div class="search">
+        <img src="./images/icons/glass.png" class="search-img" alt="search icon">
+        <input id="search-input" class="search-input" type="input" placeholder="Search by brand">
+      </div>
+      <div class="sorters">
+        <div class="add-card-container">
+          <button class="add-card" id="add-card"> Add Card</button>
+        </div>
+        <div class="dropdown">
+          <button class="dropdown-btn">Filter</button>
+          <div class="dropdown-content">
+            <button href="" class="filter-button" id="oldest-filter">By Date: Oldest</button>
+            <button href="" class="filter-button" id="newest-filter">By Date: Newest</button>
+            <button href="" class="filter-button" id="brand-filter">By Brand Name</button>
+          </div>
+        </div>  
+        
       </div>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
+    <div id="card-container"></div>
+    <div class="card" style="display: none">
+      <div class="close-btn">&times;</div>
+      <div class="card-content">
+        <h2>Brand Title</h2>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img class="card-img" src="" alt="runway look" id="slide-1"/>
+            <img class="card-img" src="" alt="runway look" id="slide-2"/>
+            <img class="card-img" src="" alt="runway look" id="slide-3"/>
+            <img class="card-img" src="" alt="runway look" id="slide-4"/>
+            <img class="card-img" src="" alt="runway look" id="slide-5"/>
+          </div>
+          <div class="arrow-left">&#10094;</div>
+          <div class="arrow-right">&#10095;</div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+          </div>
+        </div>
+        <div class="card-season">Season</div>
+        <div class="card-designer">Director: </div>
+        
+      </div>
     </div>
   </body>
 </html>
