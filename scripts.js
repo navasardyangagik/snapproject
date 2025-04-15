@@ -180,6 +180,28 @@ function editCardContent(card, new_brand, new_images, new_season, new_CD, new_da
   const cardBrand = card.querySelector("h2");
   cardBrand.textContent = new_brand;
 
+  const slider = card.querySelector(".slider");
+  const sliderNav = card.querySelector(".slider-nav");
+
+  slider.innerHTML = "";
+  sliderNav.innerHTML = "";
+
+  const maxImages = Math.min(new_images.length, 5);
+
+  for (let i = 0; i < maxImages; i++) {
+    const img = document.createElement("img");
+    img.classList.add("card-img");
+    img.src = new_images[i] || "";
+    img.alt = `${new_brand} Runway Look`;
+    img.id = `slide-${i + 1}`;
+
+    slider.appendChild(img);
+
+    const dot = document.createElement("a");
+    dot.href = `#slide-${i + 1}`;
+    sliderNav.appendChild(dot);
+  }
+
   const slideImgs = card.querySelectorAll(".card-img");
   slideImgs.forEach((img, index) => {
     img.src = new_images[index] || "";
