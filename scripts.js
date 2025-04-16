@@ -34,7 +34,7 @@ let runwayCards = [
       './images/annd/annd16.webp',
       './images/annd/annd30.webp'
     ],
-    season: 'F/W 25 Ready-to-Wear',
+    season: 'F/W 2025 Ready-to-Wear',
     creative_director: 'Stefano Gallici',
     runway_date: '2025-03-08'
   },
@@ -47,7 +47,7 @@ let runwayCards = [
       './images/margiela/mm19.webp',
       './images/margiela/mm21.webp'
     ],
-    season: 'Fall 22 Couture',
+    season: 'Fall 2022 Couture',
     creative_director: 'John Galliano',
     runway_date: '2022-07-07'
   },
@@ -60,7 +60,7 @@ let runwayCards = [
       './images/erd/erd31.webp',
       './images/erd/erd37.webp'
     ],
-    season: 'Fall 25 Ready-to-Wear',
+    season: 'Fall 2025 Ready-to-Wear',
     creative_director: 'Henri Alexander Levy',
     runway_date: '2025-03-10'
   },
@@ -73,7 +73,7 @@ let runwayCards = [
       './images/ralphlauren/ralph24.webp',
       './images/ralphlauren/ralph35.webp'
     ],
-    season: 'S/S 17 Ready-to-Wear',
+    season: 'S/S 2017 Ready-to-Wear',
     creative_director: 'Ralph Lauren',
     runway_date: '2017-02-15'
   },
@@ -141,6 +141,45 @@ let runwayCards = [
     season: 'Fall 2020 Menswear',
     creative_director: 'Yohji Yamamoto',
     runway_date: '2020-01-16'
+  },
+  {
+    brand_name: 'Chanel',
+    look_images: [
+      './images/chanel/chanel1.webp',
+      './images/chanel/chanel8.webp',
+      './images/chanel/chanel12.webp',
+      './images/chanel/chanel24.webp',
+      './images/chanel/chanel30.webp'
+    ],
+    season: 'Fall 2021 Ready-to-Wear',
+    creative_director: 'Virginie Viard',
+    runway_date: '2021-03-09'
+  },
+  {
+    brand_name: 'Louis Vuitton',
+    look_images: [
+      './images/lv/lv2.webp',
+      './images/lv/lv8.webp',
+      './images/lv/lv17.webp',
+      './images/lv/lv22.webp',
+      './images/lv/lv26.webp'
+    ],
+    season: 'Spring 2015 Menswear',
+    creative_director: 'Kim Jones',
+    runway_date: '2014-06-25'
+  },
+  {
+    brand_name: 'Balenciaga',
+    look_images: [
+      './images/balenciaga/bal2.webp',
+      './images/balenciaga/bal3.webp',
+      './images/balenciaga/bal10.webp',
+      './images/balenciaga/bal13.webp',
+      './images/balenciaga/bal25.webp'
+    ],
+    season: 'Spring 2016 Menswear',
+    creative_director: 'In-house Design Team',
+    runway_date: '2015-06-05'
   }
 ];
 
