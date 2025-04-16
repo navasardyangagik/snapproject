@@ -1,6 +1,6 @@
 # ❓ Why I Chose Fashion
 
-From a young age, I've always been interested in fashion. From  streetwear to high-fashion, I've always been incredibly passionate about clothes and how they express a persons individualism. I thought it would be incredibly useful if I could create a platform to track runways that users are interested in so they can have a centralized place for their favorite fashion collections. I wanted to make something that not only I would use, but also a bunch of my friends and people all over the world.
+From a young age, I've always been interested in fashion. From  streetwear to high-fashion, I've always been incredibly passionate about clothes and how they express a person's individualism. I thought it would be incredibly useful if I could create a platform to track runways that users are interested in so they can have a centralized place for their favorite fashion collections. I wanted to make something that not only I would use, but also a bunch of my friends and people all over the world.
 
 # 🧵 Fashion Runway Cards
 
